@@ -1,4 +1,4 @@
-# Expo elysia starter
+# Expo Elysia Pulumi starter repo
 
 A starter repo for Expo + Elysia + Pulumi on Bun
 
