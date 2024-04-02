@@ -1,0 +1,14 @@
+{
+  "name": "expo-elysia-pulumi",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "concurrently \"cd backend && bun i\" \"cd frontend && bun i\"",
+    "backend": "cd backend && bun dev",
+    "frontend": "cd frontend && bun start"
+  },
+  "packageManager": "bun@1.0.34",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
